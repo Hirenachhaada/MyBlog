@@ -1,0 +1,58 @@
+.postPage{
+    margin: 5 auto;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+div.postPage h1{
+    text-align: center;
+}
+div.postPage a{
+    text-decoration: underline;
+    color: #333;
+}
+li{
+    /* list-style: none; */
+    margin-left: 20px ;
+}
+time{
+    color: #333;
+}
+img{
+    display: flex;
+    margin: 0 auto;
+}
+div.postPage .edit-row{
+    text-align: center;
+}
+div.postPage .edit-btn{
+    background-color: #333;
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+a svg{
+    height: 20px;
+}
+div.postImage{
+    /* max-height:400px; */
+    display: flex;
+    overflow:hidden;
+}
+ div.image img{
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+}

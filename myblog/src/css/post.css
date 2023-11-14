@@ -1,0 +1,14 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+div.image{
+    max-height:300px;
+    display: flex;
+    overflow:hidden;
+}
+ div.image img{
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+}
